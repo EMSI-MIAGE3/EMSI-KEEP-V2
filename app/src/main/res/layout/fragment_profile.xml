@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.ContentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prez.fragments.ProfileFragment">
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginBottom="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APPLICATION EMSI-KEEP"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student-Life Management"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            />
+
+        <androidx.legacy.widget.Space
+
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROFIL COURRENT"
+            android:textColor="@color/primaryGreen"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            />
+        <include layout="@layout/user_adapter" android:elevation="6dp"></include>
+    </LinearLayout>
+
+</androidx.appcompat.widget.ContentFrameLayout>

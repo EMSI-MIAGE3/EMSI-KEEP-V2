@@ -1,0 +1,33 @@
+
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorError">@color/colorAccent</item>
+        <item name="colorBackgroundFloating">@color/white</item>
+        <item name="actionBarTheme">@style/ActionBar</item>
+        <item name="android:actionBarTheme">@style/ActionBar</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ActionBar" parent="AppTheme">
+        <item name="android:colorPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+
+
+</resources>

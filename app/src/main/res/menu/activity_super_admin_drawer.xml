@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="GESTION-UTILISATEURS">
+        <menu>
+            <item
+                android:id="@+id/nav_admins"
+                android:icon="@drawable/ic_supervisor"
+                android:title="GESTION-ADMIN" />
+            <item
+                android:id="@+id/nav_professors"
+                android:icon="@drawable/professor_picto"
+                android:title="GESTION-PROFESSEURS" />
+            <item
+                android:id="@+id/nav_students"
+                android:icon="@drawable/students_picto"
+                android:title="GESTION-ETUDIANTS" />
+
+        </menu>
+    </item>
+
+    <item android:title="GESTION-EMSI">
+        <menu>
+            <item
+                android:id="@+id/nav_school_class"
+                android:icon="@drawable/school_class_picto"
+                android:title="CLASSES" />
+            <item
+                android:id="@+id/nav_places"
+                android:icon="@drawable/room_picto"
+                android:title="GESTION SITES-ET-SALLES" />
+
+        </menu>
+    </item>
+    <item android:title="COMMUNICATION">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="NOTIFICATIONS-ET-MESSAGES" />
+        </menu>
+    </item>
+
+    <item android:title="COMPTE">
+        <menu>
+            <item
+                android:id="@+id/nav_profil"
+                android:icon="@drawable/ic_account"
+                android:title="PROFILE" />
+            <item
+                android:id="@+id/nav_out"
+                android:icon="@drawable/ic_lock"
+                android:title="SE DECONNECTR" />
+        </menu>
+    </item>
+
+</menu>

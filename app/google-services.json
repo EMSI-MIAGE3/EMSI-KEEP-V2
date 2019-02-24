@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "245677009932",
+    "firebase_url": "https://emsikslm.firebaseio.com",
+    "project_id": "emsikslm",
+    "storage_bucket": "emsikslm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245677009932:android:7be06b70a8d93cbe",
+        "android_client_info": {
+          "package_name": "org.skafcommunity.emsikeep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245677009932-07i27c0d30hhr618fk3af440qa1ro7ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvRjscMi12XE1QONQUPDhtDFluIC71NLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
